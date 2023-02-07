@@ -33,7 +33,7 @@ app.get('/', (req, res)=>{
         console.log(result);
         res.status(200).send(result);
     })
-    // console.log('get request')
+    console.log('get request')
     // res.send("App is running fine successfully....")
 });
 
